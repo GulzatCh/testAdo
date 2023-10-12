@@ -1,0 +1,21 @@
+
+pr: none 
+
+
+
+pool: 
+  vmImage: 'ubuntu-latest'
+
+
+
+
+
+resources:
+  pipelines:
+  - pipeline: SmartHotel
+    source: 
+    trigger: 
+      branches:
+        include: 
+        - main
+        

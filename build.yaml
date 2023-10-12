@@ -1,0 +1,8 @@
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Triggered by the source Pipeline
+  displayName: 'Run a one-line script'
+
+  
